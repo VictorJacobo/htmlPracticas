@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenar Pastel</title>
+    <style>
+    	body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #292a37;
+            color: white;
+        }
+
+       header{
+            width:100%;
+            height:15%; 
+            display:table;
+            font-size: 35px;
+        }
+
+        p{
+        	font-size: 19px;
+        }
+
+        hr {
+        	size: 2;
+        	width: 1000px;
+        }
+
+        .hr1 {
+            width: 300px;
+        }
+
+        footer {
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .header_logo{
+            display:table-cell;
+            text-align:right;
+            vertical-align:middle;  
+        }
+        .header_text{   
+            display:table-cell;
+            text-align:left;
+            vertical-align:middle;    
+        }
+
+        .logo {
+        	height: 250px;
+        	width: 250px;
+        }
+
+        .seccion{
+        	border-left: 10px solid #63646d;
+        	border-right: 10px solid #63646d;
+   		 	background: #63646d;
+   		 	position: relative;
+    		display:inline-block;
+    		left: 38%;
+        }
+
+        .btn {
+  			background-color: #292a37;
+  			color: white;
+  			padding: 15px 25px;
+  			text-decoration: none;
+  			border: 4px solid #63646d;
+		}
+
+
+    </style>
+</head>
+<body>
+	<header> 
+		<div class="header_logo">
+			<img class="logo" src=http://drive.google.com/uc?export=view&id=1xZJiSaRuAisqf34Ia3HGsjfUK23jfS5v>
+		</div>
+		<div class="header_text">
+			<h2>Formulario</h2>
+		</div>
+	</header>
+    <hr>
+    <center>
+        <p>Para continuar con su pedido es necesario que rellene el siguiente formulario</p>
+    </center>
+    <hr>
+    <div class="seccion">
+        <br>
+        <label for="nombre">Proporcione su nombre completo</label>
+        <br>
+        <input type="name" id="nomb" name="nomb">
+        <br><br>
+        <label for="correo">Proporcione correo</label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+        <label for="tel">Proporcione Teléfono</label><br>
+        <input type="tel" id="tel" name="tel" maxlength="10"><br><br>
+        <label for="Descrip">Haga una pequeña descripcion de su pastel</label>
+        <br>
+        <input type="text" id="Descrip" name="Descrip">
+        <br><br>
+        <hr class="hr1">
+        <h4>Seleccione uno o dos sabores</h4>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate">
+        <label for="sabor1">Chocolate</label><br><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Vainilla">
+        <label for="sabor2">Vainilla</label><br><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Fresa">
+        <label for="sabor3">Fresa</label><br><br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Limon">
+        <label for="sabor4">Limon</label><br><br>
+        <input type="checkbox" id="sabor5" name="sabor5" value="Cajeta">
+        <label for="sabor5">Cajeta</label><br><br>
+        <input type="checkbox" id="sabor6" name="sabor6" value="Moka">
+        <label for="sabor6">Moka</label><br><br>
+        <hr class="hr1">
+        <h4>Seleccione una o tres decoraciones</h4>
+        <input type="checkbox" id="deco1" name="deco1" value="Fresac">
+        <label for="deco1">Fresas cortadas</label><br><br>
+        <input type="checkbox" id="deco2" name="deco2" value="Fondan">
+        <label for="deco2">Figura de fondan</label><br><br>
+        <input type="checkbox" id="deco3" name="deco3" value="Durazno">
+        <label for="deco3">Durazno Cortado</label><br><br>
+        <input type="checkbox" id="deco4" name="deco4" value="Kiwi">
+        <label for="deco4">Kiwi</label><br><br>
+        <input type="checkbox" id="deco5" name="deco5" value="choco">
+        <label for="deco5">Cuadros de chocolate</label><br><br>
+        <input type="checkbox" id="deco6" name="deco6" value="Merme">
+        <label for="deco6">Mermelada de zarzamora</label><br><br>
+        <input type="checkbox" id="deco7" name="deco7" value="rosas">
+        <label for="deco7">Rosas de merengue</label><br><br>
+        <input type="reset"><br><br>
+        <input type="submit"><br><br>
+    </div>
+    <br>
+    <hr>
+    <footer>
+        <h4>Encuentrenos en:</h4>
+        <p>Ave. 6 poniente #109 barrio de tecamachalco</p>
+        <p>San Salvador el Seco, Puebla</p>
+        <h4>O llamenos al: </h4>
+        <p>249 782 8763</p>
+        <p>Hoario de Lunes a Sabado de 8:00 a.m. a 6 p.m.</p>
+    </footer>
+</body>
+</html>
